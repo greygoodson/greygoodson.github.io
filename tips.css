@@ -1,0 +1,176 @@
+body,
+html {
+    background-color: #d5d5d5;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: #4A4A4A;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+}
+
+h2 {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1%;
+}
+
+h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+p {
+    color: #4A4A4A;
+}
+
+a {
+    color: #F5F5F5;
+}
+
+a:hover {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #DE5035;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #E9E3B1;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 2%;
+}
+
+.open-butto {
+    background-color: #DE5035;
+    color: #F5F5F5;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.form-popup {
+    display: none;
+    background-color: #E9E3B1;
+    border-radius: 15px;
+    width: 60vw;
+    padding: 10px;
+    margin: 5% 20%;
+}
+
+.form .cancel {
+    background-color: #DE5035;
+    color: #F5F5F5;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+    left: 5px;
+}
+
+.form .cancel:hover,
+.open-butto:hover {
+    opacity: 1;
+}
+
+
+footer {
+    background-color: #DE5035;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vegas {
+    height: 150px;
+    width: 175px;
+    margin: 5px;
+}
+
+.money {
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+    .vegas {
+        height: 135px;
+        width: 155px;
+    }
+
+    .money {
+        height: 115px;
+        width: 115px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    .vegas {
+        height: 120px;
+        width: 140px;
+    }
+
+    .money {
+        height: 105px;
+        width: 105px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .vegas {
+        height: 105px;
+        width: 130px;
+    }
+
+    .money {
+        height: 95px;
+        width: 95px;
+    }
+}

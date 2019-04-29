@@ -1,0 +1,234 @@
+body,
+html {
+    background-color: #d5d5d5;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: #4A4A4A;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3em;
+}
+
+h2 {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1%;
+}
+
+p {
+    color: #4A4A4A;
+}
+
+a {
+    color: #F5F5F5;
+}
+
+a:hover {
+    color: #F5F5F5;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 50vh 10vh 40vh 40vh;
+    grid-template-columns: 50vw 50vw;
+    grid-row-gap: 50px;
+}
+
+.intromedia {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+}
+
+.mlb50 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+}
+
+.mlb20 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.dailycard {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+}
+
+.whale {
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #DE5035;
+}
+
+.dave {
+    width: 700px;
+    height: 45vh;
+    margin-top: 3%;
+}
+
+.card {
+    background-color: #E9E3B1;
+    width: 30vw;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    background-color: #DE5035;
+    color: #F5F5F5;
+    padding: 10px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+.details:hover {
+    opacity: 1;
+}
+
+.bg {}
+
+footer {
+    background-color: #DE5035;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vegas {
+    height: 150px;
+    width: 175px;
+    margin: 5px;
+}
+
+.money {
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+    .main {
+        grid-template-rows: 42vh 9vh 40vh 40vh;
+    }
+
+    .dave {
+        width: 550px;
+        height: 42vh;
+    }
+
+    .card {
+        width: 40vw;
+    }
+
+    .vegas {
+        height: 135px;
+        width: 155px;
+    }
+
+    .money {
+        height: 115px;
+        width: 115px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .main {
+        grid-template-rows: 39vh 8vh 36vh 36vh;
+    }
+
+    .dave {
+        width: 450px;
+        height: 40vh;
+    }
+
+    .card {
+        width: 43vw;
+    }
+
+    .vegas {
+        height: 120px;
+        width: 140px;
+    }
+
+    .money {
+        height: 105px;
+        width: 105px;
+    }
+
+    footer {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .main {
+        grid-template-rows: 39vh 5vh 36vh 36vh;
+    }
+
+    .dave {
+        width: 395px;
+    }
+
+    .card {
+        height: 40vh;
+    }
+
+    .vegas {
+        height: 105px;
+        width: 130px;
+    }
+
+    .money {
+        height: 95px;
+        width: 95px;
+    }
+
+    footer {
+        margin-top: 10%;
+    }
+}
